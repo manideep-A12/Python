@@ -9,5 +9,3 @@ while(j<len(n)):
   n[j]=0
   j+=1
 print(n)
-
-  
