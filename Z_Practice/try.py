@@ -1,9 +1,10 @@
-l=[1,-1,3,7,8,0,2,5,-6]
-k=sorted(l)
-j=0
-for i in range(max(k)):
-  if(k[j]>0):
-    if(k[j]!=i):
-      print(i)
-      break
-  j+=1
+l=[3,7,-1,8,9,10]
+m=set(x for x in l if x > 0)
+i=1
+while True:
+  if i not in m:
+    print(i)
+    break
+  i+=1
+
+

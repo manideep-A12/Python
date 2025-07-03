@@ -1,7 +1,8 @@
-l=[1,-1,3,7,8,0,2,5,-6]
-k=max(l)
-for i in range(1,k):
-  for m in range(len(l)):
-    if(l[m]<):
-      print(i)
-      break
+l=[3,7,-1,8,9,10]
+m=set(x for x in l if x > 0)
+i=1
+while True:
+  if i not in m:
+    print(i)
+    break
+  i+=1
