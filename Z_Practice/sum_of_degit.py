@@ -1,0 +1,9 @@
+n=1234
+while(n>=10):
+  sum_1=0
+  while(n!=0):
+    d=n%10
+    sum_1+=d
+    n//=10
+  n=sum_1
+print(sum_1)
