@@ -10,5 +10,4 @@ for i in range(len(n[0])):
     sum+=n[i][j]
   print(sum,end=" ")
   
-
-
+  
