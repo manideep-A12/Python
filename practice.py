@@ -1,14 +1,10 @@
-#sum of colns
-
-n=[[1,2,3],
-   [3,4,6],
-   [7,8,9]]
-print("Sum of colns :",end=" ")
-for i in range(len(n[0])):
-  sum=0
-  for j in range(len(n)):
-    sum+=n[i][j]
-  print(sum,end=" ")
-  
-
-
+n=int(input("ENter :"))
+is_prime=False
+for i in range(2,int(n**0.5)+1):
+  if(n%i==0):
+    is_prime=True
+    break
+if is_prime:
+  print("prime")
+else:
+  print("non-prime")
