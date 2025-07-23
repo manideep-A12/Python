@@ -1,7 +1,19 @@
-a=[1,2,2,3,4,4,6,7,7]
-i=0
-for j in range(1,len(a)):
-  if a[j]!=a[i]:
-    i+=1
-    a[i]=a[j]
-print(a[:i+1])
+class Name:
+  def __init__(self,n):
+    self.k=n
+    print(self.k)
+  
+  def view(self):
+    return f"my name is {self.k}"
+  def judge(this):
+    return this.k
+
+
+s1=Name("Mani")
+s2=Name("vasif")
+s3=Name("honey")
+s4=Name("nishu")
+s5=Name("vith")
+
+print(s1.view())
+print(s5.judge())
