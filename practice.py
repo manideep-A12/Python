@@ -1,19 +1,18 @@
-class Name:
-  def __init__(self,n):
-    self.k=n
-    print(self.k)
-  
-  def view(self):
-    return f"my name is {self.k}"
-  def judge(this):
-    return this.k
-
-
-s1=Name("Mani")
-s2=Name("vasif")
-s3=Name("honey")
-s4=Name("nishu")
-s5=Name("vith")
-
-print(s1.view())
-print(s5.judge())
+instruction=["Choose a number Between 0 to 99 ","Add 5 to the number","Multiply with 50","add 365","add your age(range between (0-99))","Enter your overall value"]
+while True:
+  for i in range(5):
+    print(f"Step {i+1}:{instruction[i]}")
+    k=input(f"Enter ok if step {i+1} completed :")
+    if k=='ok':
+      continue
+    else:
+      print("Thammudu leniponive enter cheyyamakuu !!")
+      break
+  else:
+    s=int(input("Enter your overall value :"))
+    n=str(s)
+    r=int(n[-2:])-15
+    l=int(n[:-2])-6
+    print("Your age is :",r)
+    print("Your Chosen number is :",l)
+    exit()
