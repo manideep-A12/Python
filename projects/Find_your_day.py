@@ -1,6 +1,6 @@
 n=input("Enter your DOB :")
 data=n.split("-")
-date={"sunday":0,"monday":1,"Tueday":2,"Wednesday":3,"thursday":4,"friday":5,"saterday":6}
+date={"sunday":0,"monday":1,"Tuesday":2,"Wednesday":3,"thursday":4,"friday":5,"saterday":6}
 month={"01":0,"02":3,"03":3,"04":6,"05":1,"06":4,"07":6,"08":2,"09":5,"10":0,"11":3,"12":5}
 d_val=int(data[0]) #date value
 m_val=month[(data[1])] # month value
