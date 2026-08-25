@@ -1,5 +1,6 @@
-n=145
-sum=0
-for i in str(n):
-  sum+=int(i)
-print(sum)
+k=int(input("Enter a number :"))
+try:
+  c=100/k
+  print(c)
+except ZeroDivisionError:
+  print("Enter value other then 0 !!!!")
